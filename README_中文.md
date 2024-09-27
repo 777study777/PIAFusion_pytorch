@@ -95,7 +95,7 @@ python train_fusion_model.py --dataset_path 'datasets/msrs_train' --epochs 30 --
 ## 测试
 ### 1. MSRS数据集
 ```shell
-python test_fusion_model.py --h5_path 'test_data/MSRS' --save_path 'results/fusion' --fusion_pretrained 'pretrained/fusion_model_epoch_29.pth'
+python test_fusion_model.py --dataset_path 'test_data/MSRS' --save_path 'results/fusion' --fusion_pretrained 'pretrained/fusion_model_epoch_29.pth'
 ```
 
 测试结果即融合图像可以在 ```save_path``` 对应的路径中找到.
